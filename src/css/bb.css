@@ -1,0 +1,20 @@
+#hello{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: myfirst  5s;
+    position:relative;
+}
+
+@keyframes myfirst{
+    from {background-color: red;left: 0px;top: 0px;}
+    to {background-color: yellow;left: 200px; top: 0px;}
+}
+
+
+.aaaaaaa{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
